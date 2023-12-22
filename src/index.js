@@ -11,8 +11,10 @@ if(dadosDoPersonagem[1] <= 1000 ){
 } else if(dadosDoPersonagem[1] >= 5001 &&dadosDoPersonagem[1] <= 7000){
     rankDoPersonagem = "Ouro"
 } else if(dadosDoPersonagem[1] >= 7001 &&dadosDoPersonagem[1] <= 8000){
+    rankDoPersonagem = "Platina"
+} else if(dadosDoPersonagem[1] >= 8001 &&dadosDoPersonagem[1] <= 9000){
     rankDoPersonagem = "Ascendente"
-} else if(dadosDoPersonagem[1] >= 8001 &&dadosDoPersonagem[1] <= 10000){
+} else if(dadosDoPersonagem[1] >= 9001 &&dadosDoPersonagem[1] <= 10000){
     rankDoPersonagem = "Imortal"
 } else {
     rankDoPersonagem = "Radiante"
