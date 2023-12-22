@@ -1,3 +1,21 @@
-console.log("testando o primeiro contado")
+// Insira os dados do personagem: Nome e experiência.
+let dadosDoPersonagem = ["Shann", 0]
+let rankDoPersonagem = ""
 
-console.log("tentando atualizar o que já foi upado.")
+if(dadosDoPersonagem[1] <= 1000 ){
+    rankDoPersonagem = "Ferro"
+} else if(dadosDoPersonagem[1] <= 2000){
+    rankDoPersonagem = "Bronze"
+} else if(dadosDoPersonagem[1] <= 5000){
+    rankDoPersonagem = "Prata"
+} else if(dadosDoPersonagem[1] <= 7000){
+    rankDoPersonagem = "Ouro"
+} else if(dadosDoPersonagem[1] <= 8000){
+    rankDoPersonagem = "Ascendente"
+} else if(dadosDoPersonagem[1] <= 10000){
+    rankDoPersonagem = "Imortal"
+} else {
+    rankDoPersonagem = "Radiante"
+} 
+
+console.log("O Herói é " + dadosDoPersonagem[0] + " e está no rank " + rankDoPersonagem + ".")
